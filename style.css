@@ -1,0 +1,119 @@
+/* colors and fonts */
+body {
+	background-color: rgb(243;243;243);
+	font-family: 'Lato', sans-serif;
+	line-height: 1,2 ;
+	letter-spacing:3;
+	font-size: 20px ;
+	font-weight: 17px;
+}
+
+h1,h2,h3{
+font-family:'Roboto', sans-serif;
+}
+
+h1{
+	color:#E8491E;
+	font-size: 60px;
+	font-weight: 900;
+}
+
+h2{
+	color: #E8491E;
+	font-size: 32px;
+	font-weight: 700;
+}
+
+a{
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: black ;
+	transition: color 0.3s ease;
+	font-weight: normal;
+}
+
+a:hover {
+	background-color: white;
+	color:#E8491E;
+	text-decoration: none;
+}
+
+/* Custom design with class */
+.container {
+	width: 800px;
+	margin: 40px auto;	
+}
+
+@media (max-width: 960px) {
+	/* For a screen < 960px, this CSS will be read */
+	.container {
+	  width: 700px;
+	}
+  }
+  @media (max-width: 720px) {
+	/* For a screen < 720px, this CSS will be read */
+	.container {
+	  width: 500px;
+	}
+  }
+  @media (max-width: 540px) {
+	/* For a screen < 540px, this CSS will be read */
+	.container {
+	  width: 300px;
+	}
+  }
+
+.card-white {
+	background-color: rgb(255, 255, 255);
+	padding: 40px;
+	box-shadow: 0px 10px 200px #CECECE;
+	border-radius: 20px;
+	margin: 20px 0px;
+	text-align:center
+	
+}
+
+.img-circle {
+	border-radius: 50%;
+  }
+
+.btn-blue{
+	background-color:#E8491E;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 40px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 75px;
+	color: #090909;
+}
+
+.list-bulletpoint {
+	list-style: none
+}
+
+/* Design adjustments using id (1% design remaining) */
+
+#intro p {
+	margin-bottom: 40px;
+}
+
+.text-24px p {
+	font-size: 24px;
+}
+#profile{
+	width: 200px;
+	box-shadow: 0px 0px 75px grey;
+}
+  
